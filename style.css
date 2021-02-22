@@ -367,10 +367,9 @@ body{
 
 .product-item a{
     color: white;
-   /* background-color: black;  */
-   /* padding: 5px; */
+  
    border-style: none;
-   /* margin-top: 15px; */
+
    cursor: pointer;
    transition: 0.3s;
    text-decoration:none;
@@ -464,6 +463,17 @@ body{
 .footer-copyrights h5 {
     color: #fff;
     font-size: 10px;
+}
+
+.footer-copyrights a{
+    color: white;
+    text-decoration: none;
+}
+.footer-copyrights a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    transition: ease-in-out .4s;
 }
 
 
